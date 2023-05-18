@@ -119,26 +119,3 @@ main{
     width: 25px;
     margin: 10px;
 }
-@media screen and (max-width: 768px) {
-    .principal{
-        grid-template-columns: 1fr
-    }
-    .mensaje {
-        width: 100%;
-        position: fixed;
-        top: 70%;
-        left: 10%;
-        }
-        
-    .btn_desencriptar,
-    .btn_encriptar,
-    .copiar {
-    width: 100%;
-    position: fixed;
-}
-    
-    .botones {
-    flex-direction: column;
-    }
-
-}
